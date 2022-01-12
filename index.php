@@ -5,6 +5,7 @@ include 'functions.php';
 
 ?>
 <script>
+    // arrays used to hold raceDescription information that is grabbed by PHP
     var raceDesc = [],
         classDesc = [],
         profDesc = [],
@@ -133,10 +134,7 @@ include 'functions.php';
                     <p>Race</p>
                 </div>
                 <div class="infoBox-paragraph">
-                    <p id="infoBox-race">
-
-                    </p>
-
+                    <p id="infoBox-race"></p>
                 </div>
             </div>
             <div class="infoBox">
@@ -170,7 +168,6 @@ include 'functions.php';
                 <div class="infoBox-paragraph">
                     <p id="infoBox-zone"></p>
                 </div>
-
             </div>
         </div>
     </div>
